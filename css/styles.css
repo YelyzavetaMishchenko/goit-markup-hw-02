@@ -60,7 +60,7 @@ body {
 }
 
 .menu-item-link:active {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .menu-item-link:focus {
@@ -113,6 +113,12 @@ body {
     background: #404BBF;
     color: #ffffff;
 }
+
+.order-btn:focus {
+    background: #404BBF;
+    color: #ffffff;
+}
+
 /*======= /HERO STYLES =======*/
 
 /*======= FEATURES STYLES =======*/
@@ -176,8 +182,8 @@ body {
 /*======= PORTFOLIO STYLES =======*/
 .portfolio-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;

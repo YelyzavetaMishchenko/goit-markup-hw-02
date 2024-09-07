@@ -51,8 +51,12 @@ body {
     letter-spacing: 0.02em;
 }
 
+.menu-item-link {
+    color: #2e2f42
+}
+
 .menu-item-link:hover {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .menu-item-link:active {
@@ -60,7 +64,7 @@ body {
 }
 
 .menu-item-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .contacts {
@@ -73,11 +77,11 @@ body {
 }
 
 .menu-contacts-item-link:hover {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .menu-contact-item-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 /*======= /HEADER STYLES =======*/
 
@@ -92,6 +96,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .order-btn {
@@ -111,8 +116,11 @@ body {
 /*======= /HERO STYLES =======*/
 
 /*======= FEATURES STYLES =======*/
+.features-title {
+    font-weight: 500;
+}
+
 .features-menu-item-title {
-   
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -136,16 +144,17 @@ body {
 }
 
 .team-title {
-    
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-menu-title {
-   
+    background-color: #FFFFFF
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -166,12 +175,13 @@ body {
 
 /*======= PORTFOLIO STYLES =======*/
 .portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-menu-item {

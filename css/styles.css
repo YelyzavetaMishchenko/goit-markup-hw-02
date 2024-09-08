@@ -80,7 +80,7 @@ body {
     color: #404bbf;
 }
 
-.menu-contact-item-link:focus {
+.menu-contacts-item-link:focus {
     color: #404bbf;
 }
 /*======= /HEADER STYLES =======*/
@@ -187,6 +187,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-menu-title {

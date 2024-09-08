@@ -99,8 +99,7 @@ body {
     text-align: center;
 }
 
-.order-btn {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.btn {
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -109,12 +108,12 @@ body {
     color: #ffffff;
 }
 
-.order-btn:hover {
+.btn:hover {
     background: #404BBF;
     color: #ffffff;
 }
 
-.order-btn:focus {
+.btn:focus {
     background: #404BBF;
     color: #ffffff;
 }
@@ -122,15 +121,12 @@ body {
 /*======= /HERO STYLES =======*/
 
 /*======= FEATURES STYLES =======*/
-.features-title {
-    font-weight: 500;
-}
-
 .features-menu-item-title {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    font-weight: 500;
 }
 
 .features-menu-item-text {
@@ -141,6 +137,8 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
 
 /*======= /FEATURES STYLES =======*/
 
@@ -160,7 +158,6 @@ body {
 }
 
 .team-menu-title {
-    background-color: #FFFFFF
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -169,6 +166,9 @@ body {
     color: #2e2f42;
 }
 
+.team-menu-item {
+    background-color: #FFFFFF;
+}
 .team-menu-text {
     
     font-weight: 400;
